@@ -1,0 +1,353 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+    background-color:#fafafa;    
+    justify-content: center;
+    display:flex;
+    
+      
+}
+*{
+    box-sizing: border-box;
+}
+h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color : #262626;
+
+}
+.menusup{
+    height:54px;
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width:935px;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+.menuinf{
+    width: 100%;
+    border: 1px solid #DBDBDB;
+    
+    min-height: 54px;
+    position:fixed;
+    z-index: 1;
+    bottom:0;
+    left:0;
+    background-color: #FFFFFF;
+    display: none;
+}
+.bordah{
+    
+    background-color: #DBDBDB;
+    width: 100%;
+    height: 1px;
+    position: fixed;
+    top:54px;
+}
+.logo{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:8px;
+    
+    
+}
+.icone{
+    width: 19.25px;
+    height: 19.25px;
+}
+.i1{
+    margin-right:11.37px;
+    }
+.i2{
+    
+    margin-right:25px;
+ }
+ .i3{
+    
+    margin-left:17px;
+
+ }
+ .i4{
+    margin-left:478px;
+ }
+.logo img{
+    width: 103px;
+    height: 29px;
+    
+    
+}
+.borda{
+    width:1px ;
+    height: 22px;
+    background-color: #dbdbdb;
+    margin-right: 10px;
+}
+.busca{
+    width: 213px;
+    height: 26px;
+    border: 1px solid #dbdbdb; 
+    border-radius: 3px;
+    background-color:#fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    color: #979797;
+}
+.conteudo{
+    margin-top: 88px;
+    display: flex;
+    width:935px;
+    }
+.caixastories{
+    max-width: 614px;
+    height: 118px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    
+    margin-bottom:24px;
+}
+.storie{
+    display: flex;
+    min-width: 81px;
+    height: auto;
+    background-image: url("arquivos/stories_background.jpg");
+    background-size: 66px 66px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:18px;  
+    position: relative;
+    justify-content: center;
+}
+.storie p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+    font-family: 'Roboto';
+    font-style: normal;
+    position: absolute;
+    bottom: 14px;
+
+}
+.sto{
+    position:absolute;
+    top: 23px;
+    left: 12.7px; 
+    border-radius: 28px;
+    width: 56px;
+    height: 56px;
+
+}
+.seta{
+    position: absolute;
+    top: 46px;
+    left: 7px;
+    width: 26px;
+    height: 26px;
+}
+.post{
+    width:614px;
+    
+    
+    
+    margin-bottom:60px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px
+}
+.rodape p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+}
+.perfil{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+       
+}
+.perfiles{
+    display: flex;
+    font-style: normal;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.imagem{
+   
+    width:614px;
+    height: 614px;
+}
+.perfil img{
+    width: 32px;
+    height: 32px;
+    margin-left:16px;  
+    border-radius: 16px;
+}
+.perfil p{
+    margin-right: 409px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+.react{
+    display:flex;
+    border-left: 17px;
+    height: 38px;
+    align-items: center;
+}
+.like p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+    margin-left: 7px;
+}
+
+.cont2{
+    box-sizing: border-box;
+    margin-left: 29px;
+    width:293px;
+}
+h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #139EF2;
+}
+.cont2 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;   
+    line-height: 14px;
+    color: #8E8E8E; 
+}
+.perfrec{
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    margin-bottom: 24px;
+}
+.rec{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.recom{
+    height:118px;
+
+}
+.ssd{
+    margin-left: 17px;
+}
+
+.perfrec img{
+    max-height: 56px;
+    width: 56px;
+    border-radius: 28px;
+}
+.sugestao{
+    display: flex;
+    align-items: center;
+    margin-bottom:16px;
+    justify-content: space-between;
+}
+.sugestao img{
+    width: 32px;
+    height: 32px;
+    margin-right:11px;  
+    border-radius: 16px;
+}
+.tx{
+    display: flex;
+}
+.rodape{
+    margin-top: 17px;
+}
+.rodape p {
+    margin-bottom: 17px;
+}
+@media (max-width: 935px) {
+    .cont2{
+        display: none;
+    }
+	.conteudo{
+        justify-content: center;
+    }
+    .i1{
+        margin-left:20px;
+    }
+}
+@media (max-width:614px) {
+    .post{
+        width: 100%;
+        border-left: 0;
+        border-right: 0;
+    }
+    .imagem{
+        margin-left:1px;
+    }
+    .conteudo{
+        margin-top:0;
+    }
+    .caixastories{
+        margin-bottom: -1px;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        margin-top:54px;
+        
+    }
+    .seta{
+        display: none;
+    }
+    .busca{
+        display: none;
+    }
+    .desk{
+        display: none;
+    }
+    .borda{
+        display: none;
+    }
+    .menusup{
+        width:100%;
+        
+    }
+    .logo{
+        
+        align-items: unset;
+    }
+    .logo img{
+        margin-left: 205px;
+    }
+    .menuinf{
+        display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+}
